@@ -228,6 +228,9 @@ typedef struct {
  * + max 4  extended header (timestamp) */
 #define NGX_RTMP_MAX_CHUNK_HEADER       18
 
+// add by adwpc for hevc support
+#define NGX_RTMP_VIDEOTAG_CODECID_AVC   7
+#define NGX_RTMP_VIDEOTAG_CODECID_HEVC  12
 
 enum {
     NGX_RTMP_PROTOCOL_RTMP = 0,
